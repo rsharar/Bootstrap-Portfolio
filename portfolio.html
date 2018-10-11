@@ -7,6 +7,7 @@
   <meta charset="UTF-8">
   <title>Portfolio</title>
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
   <link rel="stylesheet" href ="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
 </head>
 
@@ -25,9 +26,9 @@
                         <!-- About Me, Contact, Portfolio Menu -->
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="padding-left: 900px;">
                           <div class="navbar-nav">
-                            <a class="nav-item nav-link active" href="file:///Users/rudysharar/Responsive-Portfolio/index.html">About <span class="sr-only">(current)</span></a>
-                            <a class="nav-item nav-link" href="file:///Users/rudysharar/Responsive-Portfolio/contact.html">Contact</a>
-                            <a class="nav-item nav-link" href="file:///Users/rudysharar/Responsive-Portfolio/portfolio.html">Portfolio</a>
+                            <a class="nav-item nav-link active" href="file:///Users/rudysharar/Bootstrap-Portfolio/index.html">About <span class="sr-only">(current)</span></a>
+                            <a class="nav-item nav-link" href="file:///Users/rudysharar/Bootstrap-Portfolio/contact.html">Contact</a>
+                            <a class="nav-item nav-link" href="file:///Users/rudysharar/Bootstrap-Portfolio/portfolio.html">Portfolio</a>
                           </div>
                         </div>
                 </nav>
@@ -42,45 +43,55 @@
                             Portfolio
                         </div>
                 <div class="row" style = "margin-top: 50px; margin-bottom: 50px;">
-                    <div class="col-md-4">
-                        <img src="assets/images/hangman.png" class="mx-auto d-block" height="250px" width="250px" style="position: relative;">
-                        <div class="banner-1">
-                            Hangman
+                    <a href = "https://ethanpfisher.github.io/Project1/">
+                        <div class="col-md-4">
+                            <img src="assets/images/background.jpeg" class="mx-auto d-block" height="250px" width="250px" style="position: relative;">
+                            <div class="banner-1">
+                                EntertainMe
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="assets/images/rpg.jpeg" class="mx-auto d-block" height="250px" width="250px" style="position: relative">
-                        <div class="banner-1">
-                            RPG
+                    </a>
+                    <a href="https://rsharar.github.io/unit-4-game/">
+                        <div class="col-md-4">
+                            <img src="assets/images/bluecrystal.png" class="mx-auto d-block" height="250px" width="250px" style="position: relative">
+                            <div class="banner-1">
+                                Crystal Calculator
+                            </div>
                         </div>
-                    </div>
+                    </a>
                     <div class="col-md-4">
                     </div>
                 </div>
                 <div class="row" style = "margin-bottom: 50px;">
-                    <div class="col-md-4">
-                        <img src="assets/images/trivia.jpeg" class="mx-auto d-block" height="250px" width="250px" style="position: relative">
-                        <div class="banner-1">
-                                Trivia
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                            <img src="assets/images/rock.jpeg" class="mx-auto d-block" height="250px" width="250px" style="position: relative">
+                    <a href="https://rsharar.github.io/TriviaGame/">
+                        <div class="col-md-4">
+                            <img src="assets/images/bball.jpeg" class="mx-auto d-block" height="250px" width="250px" style="position: relative">
                             <div class="banner-1">
-                                Rock-Paper-Scissors
+                                    NBA Trivia
                             </div>
-                    </div>
+                        </div>
+                    </a>
+                    <a href="https://rsharar.github.io/GifTastic/">
+                        <div class="col-md-4">
+                                <img src="assets/images/guitar.jpeg" class="mx-auto d-block" height="250px" width="250px" style="position: relative">
+                                <div class="banner-1">
+                                    GifTastic
+                                </div>
+                        </div>
+                    </a>
                     <div class="col-md-4">
                     </div>
                     
                 </div>
-                <div class="row" style = "margin-bottom: 50px;">
-                    <div class="col-md-4">
-                            <img src="assets/images/science.jpeg" class="mx-auto d-block" height="250px" width="250px" style="position: relative">
-                            <div class="banner-1">
-                                Science Rules
+                    <div class="row" style = "margin-bottom: 50px;">
+                        <a href="https://rsharar.github.io/Train-Scheduler/">
+                            <div class="col-md-4" id = "entertain-me">
+                                    <img src="assets/images/train.jpeg" class="mx-auto d-block" height="250px" width="250px" style="position: relative">
+                                    <div class="banner-1">
+                                        Train Scheduler
+                                    </div>
                             </div>
-                    </div>
+                        </a>
                     <div class="col-md-4">
                     </div>
                     <div class="col-md-4">
@@ -96,8 +107,6 @@
             </div>
         </div>
     </div>
-        
-        
-
+    <script src="assets/javascript/app.js" async defer></script>
 </body>
 </html>
